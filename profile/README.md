@@ -8,10 +8,13 @@
     <a href="https://aws.amazon.com" target="_blank"> <img src="https://www.vectorlogo.zone/logos/amazon_aws/amazon_aws-icon.svg" alt="aws" width="40" height="40"/> </a>
     <a href="https://cloud.google.com" target="_blank"> <img src="https://www.vectorlogo.zone/logos/google_cloud/google_cloud-icon.svg" alt="gcp" width="40" height="40"/> </a>
     <a href="https://azure.microsoft.com/" target="_blank"> <img src="https://www.vectorlogo.zone/logos/microsoft_azure/microsoft_azure-icon.svg" alt="azure" width="40" height="40"/> </a>  
-    <a href="https://www.alibabacloud.com/" target="_blank"> <img src="https://www.vectorlogo.zone/logos/alibabacloud/alibabacloud-icon.svg" alt="azure" width="40" height="40"/> </a>  
-    <a href="https://www.scaleway.com/" target="_blank"> <img src="https://www.vectorlogo.zone/logos/scaleway/scaleway-icon.svg" alt="azure" width="40" height="40"/> </a>  
-    <a href="https://www.exoscale.com/" target="_blank"> <img src="https://www.vectorlogo.zone/logos/exoscale/exoscale-icon.svg" alt="azure" width="40" height="40"/> </a>  
+    <a href="https://www.alibabacloud.com/" target="_blank"> <img src="https://www.vectorlogo.zone/logos/alibabacloud/alibabacloud-icon.svg" alt="alicloud" width="40" height="40"/> </a>  
+    <a href="https://www.scaleway.com/" target="_blank"> <img src="https://www.vectorlogo.zone/logos/scaleway/scaleway-icon.svg" alt="scaleway" width="40" height="40"/> </a>  
+    <a href="https://www.exoscale.com/" target="_blank"> <img src="https://www.vectorlogo.zone/logos/exoscale/exoscale-icon.svg" alt="exoscale" width="40" height="40"/> </a>  
+    <a href="https://www.digitalocean.com/" target="_blank"> <img src="https://www.vectorlogo.zone/logos/digitalocean/digitalocean-icon.svg" alt="digitalocean" width="40" height="40"/> </a>  
+    <a href="https://www.ibm.com/cloud" target="_blank"> <img src="https://www.vectorlogo.zone/logos/ibm_cloud/ibm_cloud-icon.svg" alt="ibmcloud" width="40" height="40"/> </a>  
 </p>
+
 
 <h2>🚀 Tech</h2>
 
