@@ -76,6 +76,9 @@ repository:
 
 # Labels: define labels for Issues and Pull Requests
 labels:
+
+## KIND
+
 - name: "kind/renovate"
   description: "Categorizes issue or PR as related to Renovate"
   color: "FF0040"
@@ -112,6 +115,8 @@ labels:
   description: "Categorizes issue or PR as a support question"
   color: "cc317c"
 
+## PRIORITY
+
 - name: "priority/critical"
   description: "Highest priority. This should be dealt with ASAP"
   color: "ee0701"
@@ -131,6 +136,8 @@ labels:
 - name: "priority/backlog"
   description: "Possibly useful, but not yet enough support to actually get it done"
   color: "fbca04"
+
+## STATUS
 
 - name: "status/abandoned"
   description: "This issue or PR is no longer important"
@@ -160,6 +167,8 @@ labels:
   description: "The issue or PR needs to be reviewed"
   color: "fbca04"
 
+## LIFECYCLE
+
 - name: "lifecycle/active"
   description: "Indicates that an issue or PR is actively being worked on by a contributor."
   color: "75CA20"
@@ -175,6 +184,8 @@ labels:
 - name: "lifecycle/rotten"
   description: "Denotes an issue or PR that has aged beyond stale and will be auto-closed."
   color: "212F3D"
+
+## SIZE
 
 - name: "size/xs"
   description: "Size XS"
@@ -195,6 +206,8 @@ labels:
 - name: "size/xl"
   description: "Size XL"
   color: "ededed"
+
+## NEEDS
 
 - name: "needs/triage"
   description: "Indicates an issue or PR lacks a `triage/foo` label and requires one."
@@ -223,6 +236,19 @@ labels:
 - name: "needs/status"
   description: "Indicates an issue or PR lacks a `status/foo` label and requires one."
   color: "D669BE"
+
+## AREA
+
+- name: "area/github"
+  description: "Github"
+  color: "cc317c"
+
+## DEPENDENCY
+
+- name: "dependency/github"
+  description: "Dependency Github Actions"
+  color: "6fcb70"
+
 
 milestones:
 - title: v1.0.0
