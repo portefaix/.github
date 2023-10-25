@@ -169,6 +169,10 @@ labels:
 
 ## LIFECYCLE
 
+- name: "lifecycle/waiting"
+  description: "Indicates that an issue or PR is waiting a contributor."
+  color: "75CA20"
+
 - name: "lifecycle/active"
   description: "Indicates that an issue or PR is actively being worked on by a contributor."
   color: "75CA20"
