@@ -1,0 +1,62 @@
+{
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "packageRules": [
+    // type
+    {
+      "matchUpdateTypes": ["major"],
+      "labels": ["priority/high"]
+    },
+    {
+      "matchUpdateTypes": ["minor"],
+      "labels": ["priority/medium"]
+    },
+    {
+      "matchUpdateTypes": ["patch"],
+      "labels": ["priority/low"]
+    },
+    // {
+    //   "matchUpdateTypes": ["digest"],
+    //   "labels": ["type/digest"]
+    // },
+    {
+      "matchDatasources": ["docker"],
+      "addLabels": ["kind/renovate", "dependency/docker", "lifecycle/active", "status/review_needed", "size/xs"]
+    },
+    {
+      "matchDatasources": ["helm"],
+      "addLabels": ["kind/renovate", "dependency/helm", "lifecycle/active", "status/review_needed", "size/xs"]
+    },
+    {
+      "matchDatasources": ["galaxy", "galaxy-collection"],
+      "addLabels": ["kind/renovate", "dependency/ansible", "lifecycle/active", "status/review_needed", "size/xs"]
+    },
+    {
+      "matchManagers": ["ansible", "ansible-galaxy"],
+      "addLabels": ["kind/renovate", "dependency/ansible", "lifecycle/active", "status/review_needed", "size/xs"]
+    },
+    {
+      "matchDatasources": ["terraform", "terraform-version", "terraform-provider", "terraform-module"],
+      "addLabels": ["kind/renovate", "dependency/terraform", "lifecycle/active", "status/review_needed", "size/xs"]
+    },
+    {
+      "matchManagers": ["tflint-plugin"],
+      "addLabels": ["kind/renovate", "dependency/terraform", "lifecycle/active", "status/review_needed", "size/xs"]
+    },
+    {
+      "matchPackageNames": ["hashicorp/terraform"],
+      "addLabels": ["kind/renovate", "dependency/terraform", "lifecycle/active", "status/review_needed", "size/xs"]
+    },
+    {
+      "matchDatasources": ["github-releases", "github-tags"],
+      "addLabels": ["kind/renovate", "dependency/github", "lifecycle/active", "status/review_needed", "size/xs"]
+    },
+    {
+      "matchManagers": ["github-actions"],
+      "addLabels": ["kind/renovate", "dependency/github", "lifecycle/active", "status/review_needed", "size/xs"]
+    },
+    {
+      "matchPaths": [".pre-commit-config.yaml"],
+      "addLabels": ["kind/renovate", "dependency/github", "lifecycle/active", "status/review_needed", "size/xs"]
+    }
+  ]
+}
