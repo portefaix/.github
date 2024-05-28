@@ -55,6 +55,10 @@
       "addLabels": ["kind/renovate", "dependency/github", "lifecycle/active", "status/review_needed", "size/xs"]
     },
     {
+      "matchDatasources": ["rubygems", "ruby-version"],
+      "addLabels": ["kind/renovate", "dependency/ruby", "lifecycle/active", "status/review_needed", "size/xs"]
+    },
+    {
       "matchPaths": [".pre-commit-config.yaml"],
       "addLabels": ["kind/renovate", "dependency/github", "lifecycle/active", "status/review_needed", "size/xs"]
     }
