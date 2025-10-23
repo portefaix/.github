@@ -1,0 +1,14 @@
+{
+  extends: [
+    "config:recommended",
+    ":gitSignOff",
+  ],
+  enabled: true,
+  timezone: "Europe/Paris",
+  dependencyDashboard: true,
+  dependencyDashboardTitle: "Renovate Dashboard",
+  suppressNotifications: ["prIgnoreNotification"],
+  rebaseWhen: "conflicted",
+  assignees: ["@nlamirault"],
+  reviewersFromCodeOwners: true,
+}
